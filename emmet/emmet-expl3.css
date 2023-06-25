@@ -1,0 +1,70 @@
+#id {
+  margin: ;
+  margin: 10px;
+  margin: 10px 20px;
+  margin: -10px -20px;
+
+  margin: 10px;
+  margin: 1.5em;
+  margin: 1.5hel;
+  margin: 10hel 20er;
+  margin: 10ex -5px;
+  
+  width: 100%;
+  margin: 10% 30em 5er;
+
+  color: #333;
+  border: 5px #000 solid;
+
+  color: #111;
+  color: #e0e0e0;
+  color: #fc0;
+
+  line-height: 2;
+  font-weight: 400;
+
+  padding:  !important;
+  margin: 10em !important;
+
+
+  /* Vendor prefixes */
+
+  border-radius: ;
+  /* -bdrs won't expand as intended. */
+  /*  But bdrs will. */
+  
+  /* -foo and -super-foo won't expand as
+            intended. */
+
+  /* -trf won't expand as intended. */
+  /*  But trf will. */
+  transform: ;
+
+  /* Answer? */
+  /* While writing CSS files, you may find that a “clear” CSS3 property is useless without its vendor-prefixed variants. It makes writing hyphenated abbreviations like -trf (trf is an alias to transform property) a bit awkward. */
+  /* This is why Emmet has css.autoInsertVendorPrefixes preference enabled by default. With this preference enabled, all CSS properties defined in vendor catalogs will be automatically supplied with matched vendor-prefixed variants. */
+  /* It means that you don’t need to use a hyphen to get valid prefixed variants for known CSS properties, simply expand abbreviations like bdrs or trf to get a valid list of vendor-prefixed properties. */
+
+  /* Established one-letter prefixes? */
+  /*  w: webkit
+      m: moz
+      s: ms
+      o: o */
+
+
+  /* Gradients */
+  
+  /* lg does not expand as expected... */
+
+  background-image: linear-gradient(left, #fc0 30%, red);
+
+
+  /* Fuzzy search */
+
+  overflow: hidden;
+  box-sizing: content-box;
+  position: absolute;
+
+}
+
+
