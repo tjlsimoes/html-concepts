@@ -1,0 +1,35 @@
+/* Select Item */
+
+body {
+  border: 1px solid #000;
+  background: url(image.jpg) #ccc no-repeat;
+}
+
+/* Increment/Decrement Number */
+/* Keyboard shortcuts not defined
+   due to conflicts and 
+   personal incapabilities. */
+
+body {
+  padding: 16px;
+  line-height: 1.7;
+  width: 100%;
+}
+
+
+/* Reflect CSS Value */
+
+div {
+  padding: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* Encode/Decode Image do data:URL */
+/* Not found... */
+
+body {
+  background-image: url(img/demo.jpg);
+}
